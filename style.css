@@ -22,8 +22,11 @@ header {
 }
 
 nav { 
-    background-color: blue;
-    height: 40px;
+    background-color: rgba(0, 0, 0, 0.301);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
 }
 
 main {
@@ -32,24 +35,27 @@ text-align: center;
 padding-left: 240px;
 padding-right: 240px;
 padding-top: 80px;
+
 }
 
 footer {
-    background-color: hotpink;
-    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 200px;
+    
 }  
 
 h1 {
     font-size: 84px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
 p {
     font-size: 18px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
@@ -58,4 +64,20 @@ a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     /* text-decoration: none; */
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p {
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
